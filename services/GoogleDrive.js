@@ -1,5 +1,5 @@
 const { google } = require('googleapis');
-const apikeys = require('../config/apikeys.json');
+const apikeys = require('../apikeys.json');
 
 class GoogleDriveService {
     constructor() {
